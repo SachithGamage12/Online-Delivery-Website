@@ -8,7 +8,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store Registration - ලක්way Delivery</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhCfrw-m2Vs7ywvZ82JuGjr5-WBV4Y9rk&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key='Your_Google_Api_Key'&libraries=places"></script>
     <style>
         :root {
             --primary: #667eea;
@@ -1245,4 +1245,5 @@ session_start();
         window.onload = initMap;
     </script>
 </body>
+
 </html>
