@@ -21,7 +21,7 @@ $store = $store_query->fetch_assoc();
 $store_lat = $store['latitude'] ?? 6.6844; // Ratnapura coordinates
 $store_lng = $store['longitude'] ?? 80.3992;
 
-$google_maps_api_key = 'AIzaSyBhCfrw-m2Vs7ywvZ82JuGjr5-WBV4Y9rk';
+$google_maps_api_key = 'Your_Google_Api_Key';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -458,4 +458,5 @@ function processOrder() {
 <!-- Load Google Maps -->
 <script src="https://maps.googleapis.com/maps/api/js?key=<?= $google_maps_api_key ?>&libraries=places&callback=initMap" async defer></script>
 </body>
+
 </html>
