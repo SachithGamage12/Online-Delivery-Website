@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'lakway_delivery';
 $username = 'root';
-$password = 'Sun123flower@';
+$password = '';//use your password 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
