@@ -31,7 +31,7 @@ and administrative control through role-based dashboards.
 
 1. Clone the repository
 2. Import `lakway_delivery.sql` into MySQL
-3. Update database credentials in `config/database.php`
+3. Update database credentials in `config/db_connection.php`
 4. Place project in Apache root (htdocs)
 5. Access via http://localhost/project-name
 
